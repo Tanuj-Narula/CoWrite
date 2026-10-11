@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
   res.json({
-    name: 'RT Collaborative Doc Editor API',
+    name: 'CoWrite API',
     version: '1.0.0',
     docs: '/api/v1/health',
   });

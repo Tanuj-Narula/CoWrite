@@ -12,7 +12,7 @@ initializeSocket(httpServer);
 httpServer.listen(config.port, () => {
   console.info(`
   ╔══════════════════════════════════════════════════╗
-  ║  RT Collaborative Doc Editor — API Server        ║
+  ║  CoWrite — API Server                           ║
   ╠══════════════════════════════════════════════════╣
   ║  Environment: ${config.env.padEnd(33)}║
   ║  Port:        ${String(config.port).padEnd(33)}║
