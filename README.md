@@ -457,17 +457,18 @@ VITE_FIREBASE_* (all Firebase client config values)
 
 ### Backend — Render
 
-| Setting | Value |
-|---|---|
-| **Root Directory** | `server` |
-| **Build Command** | `npm install` |
-| **Start Command** | `npm start` |
+| Setting            | Value         |
+| ------------------ | ------------- |
+| **Root Directory** | `server`      |
+| **Build Command**  | `npm install` |
+| **Start Command**  | `npm start`   |
 
 **Required environment variables:**
 
 ```
 NODE_ENV=production
-CLIENT_URL=https://co-write-nine.vercel.app
+PORT=5000
+CLIENT_URL=https://your-frontend.vercel.app
 AUTH_DEV_MODE=false
 FIREBASE_PROJECT_ID=...
 FIREBASE_CLIENT_EMAIL=...
@@ -522,15 +523,19 @@ FIREBASE_PRIVATE_KEY=...
 ## 📸 Screenshots
 
 ### 🔐 Login Page
+
 ![Login Page](docs/screenshots/login_page.jpg)
 
 ### 📊 Dashboard
+
 ![Dashboard](docs/screenshots/dashboard.jpg)
 
 ### ✍️ Editor (Multi-user)
+
 ![Editor](docs/screenshots/editor.jpg)
 
 ### 🌙 Dark Mode
+
 ![Dark Mode](docs/screenshots/dark_mode.jpg)
 
 ---
