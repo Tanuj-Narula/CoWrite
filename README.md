@@ -477,23 +477,6 @@ FIREBASE_PRIVATE_KEY=...
 
 > ⚠️ **Monorepo Tip:** Deploy `client/` and `server/` separately. Ensure `CLIENT_URL` in server matches the deployed frontend domain exactly for CORS to work.
 
----
-
-## 🔮 Future Improvements
-
-- [ ] 🖊️ **Operational Transformation (OT)** — True conflict-free concurrent editing
-- [ ] 🗺️ **Live Cursor Rendering** — Visual cursor positions per user in TipTap
-- [ ] 🔔 **Notifications System** — In-app alerts for document shares and mentions
-- [ ] 📱 **Mobile Optimization** — Touch-friendly editing experience
-- [ ] 🌍 **Internationalization (i18n)** — Multi-language support
-- [ ] 📊 **Analytics Dashboard** — Document activity and collaboration stats
-- [ ] 🤖 **AI Writing Assistant** — Integrated AI suggestions via Gemini / OpenAI
-- [ ] 📤 **Export Options** — PDF, DOCX, Markdown export
-- [ ] 🔗 **Public Share Links** — View-only shareable document URLs
-- [ ] 📂 **Folder Organization** — Workspace folders and document nesting
-
----
-
 ## 🐛 Troubleshooting
 
 | Issue                           | Cause                    | Fix                                                                  |
