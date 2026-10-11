@@ -517,11 +517,16 @@ FIREBASE_PRIVATE_KEY=...
 
 ## 📸 Screenshots
 
-|          View          |             Preview              |
-| :--------------------: | :------------------------------: |
-|     🔐 Login Page      |   `docs/screenshots/login.png`   |
-|      📊 Dashboard      | `docs/screenshots/dashboard.png` |
-| ✍️ Editor (Multi-user) |  `docs/screenshots/editor.png`   |
-|      🌙 Dark Mode      | `docs/screenshots/dark-mode.png` |
+### 🔐 Login Page
+![Login Page](docs/screenshots/login_page.jpg)
+
+### 📊 Dashboard
+![Dashboard](docs/screenshots/dashboard.jpg)
+
+### ✍️ Editor (Multi-user)
+![Editor](docs/screenshots/editor.jpg)
+
+### 🌙 Dark Mode
+![Dark Mode](docs/screenshots/dark_mode.jpg)
 
 ---
