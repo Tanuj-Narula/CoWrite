@@ -19,12 +19,6 @@ _By [Tanuj Narula](https://github.com/Tanuj-Narula)_
 
 <br/>
 
-[![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Active_Development-brightgreen?style=flat-square)]()
-[![Author](https://img.shields.io/badge/Author-Tanuj_Narula-blueviolet?style=flat-square)]()
-
-<br/>
-
 > **A production-ready, real-time collaborative document editor** enabling multiple users to edit, sync and manage documents simultaneously — powered by Socket.IO, Firebase and a modern React frontend.
 
 </div>
