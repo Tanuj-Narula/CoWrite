@@ -1,12 +1,10 @@
-<div align="center">
+# 📝 CoWrite
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Real-Time%20Collaborative%20Document%20Editor&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Real-Time%20%7C%20Full-Stack%20%7C%20Firebase%20Powered&descAlignY=55&descSize=18" width="100%"/>
+### Real-Time Collaborative Document Editor
 
-<br/>
+**Built with React · Node.js · Socket.io · Firebase**
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=28&duration=2500&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Real-Time+Collaborative+Document+Editor;Built+with+React+%2B+Node.js+%2B+Socket.io;Firebase+Powered+Cloud+Collaboration;Production-Ready+SaaS+Workspace" alt="Typing SVG" />
-
-<br/><br/>
+_By [Tanuj Narula](https://github.com/Tanuj-Narula)_
 
 </div>
 
