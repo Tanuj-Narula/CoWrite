@@ -6,6 +6,8 @@
 
 _By [Tanuj Narula](https://github.com/Tanuj-Narula)_
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-co--write--nine.vercel.app-00C2FF?style=for-the-badge&logo=vercel&logoColor=white)](https://co-write-nine.vercel.app)
+
 </div>
 
 [![Full Stack](https://img.shields.io/badge/Full_Stack-20232A?style=for-the-badge&logo=webcomponents.org&logoColor=61DAFB)](#)
@@ -445,25 +447,27 @@ netlify deploy --prod --dir=dist
 **Required environment variables in hosting dashboard:**
 
 ```
-VITE_API_URL=https://your-api.railway.app/api/v1
-VITE_SOCKET_URL=https://your-api.railway.app
+VITE_API_URL=https://your-render-service.onrender.com/api/v1
+VITE_SOCKET_URL=https://your-render-service.onrender.com
 VITE_AUTH_DEV_MODE=false
 VITE_FIREBASE_* (all Firebase client config values)
 ```
 
-### Backend — Railway / Render
+> 🌐 **Live Frontend:** [https://co-write-nine.vercel.app](https://co-write-nine.vercel.app)
 
-```bash
-# Start production server
-cd server && npm start
-```
+### Backend — Render
+
+| Setting | Value |
+|---|---|
+| **Root Directory** | `server` |
+| **Build Command** | `npm install` |
+| **Start Command** | `npm start` |
 
 **Required environment variables:**
 
 ```
 NODE_ENV=production
-PORT=5000
-CLIENT_URL=https://your-frontend.vercel.app
+CLIENT_URL=https://co-write-nine.vercel.app
 AUTH_DEV_MODE=false
 FIREBASE_PROJECT_ID=...
 FIREBASE_CLIENT_EMAIL=...
